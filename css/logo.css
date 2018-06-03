@@ -1,0 +1,20 @@
+.logolayer img{
+  position: absolute;
+  /* width:100%; */
+  top:33%;
+  left: -10%;
+  /* transform:translate(-50%, -50%); */
+  width:60%;
+  /* position:absolute; */
+  /* top:50%; */
+  /* text-align: center; */
+  /* transform:translateY(-50%); */
+  /* z-index: 2; */
+}
+
+#motif {
+  z-index: 2;
+}
+.logoright{
+  right:5%;
+}

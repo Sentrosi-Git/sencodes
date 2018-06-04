@@ -15,10 +15,14 @@
     <link rel="stylesheet" href="css/anchor.css">
     <link rel="stylesheet" href="css/logo.css">
     <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/particle.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/modalcomponent.css">
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link href='http://fonts.googleapis.com/css?family=Raleway:100|Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/modernizr.custom.js"></script>
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 
@@ -28,13 +32,23 @@
   <![endif]-->
 
   <header role="banner">
+    <div class="menu">
+
     <nav class="anchor-nav" role="navigation">
+      <div class="menu-item current-menu-item">
       <a href="#top" class="anchor1">Home</a>
+      <div class="wee"></div>
+    </div>
+      <div class="menu-item">
       <a href="#section-3" class="anchor3">About Me</a>
+    </div>
       <a href="#section2" class="anchor2">Got Code?</a>
       <a href="#section-4" class="anchor4">Projects</a>
       <a href="#section-5" class="anchor5">Contact Me</a>
     </nav>
+  </div>
+
+
   </header>
 
     <section id="section-1">
@@ -93,7 +107,11 @@
                 <h1>Back End Development</h1>
                 <p>This architecture incorporates the use of different
                   languages to structure the server-side functionality of a web app.
-                  Use the slider to see what I like to use. </p>
+                  I have backend experience coding in:
+                   Node Js
+                   Ruby on Rails
+                   PHP
+                   </p>
               </div>
                 <img src="img/splitter/background-black.png" alt="Image File">
             </div>
@@ -104,7 +122,8 @@
                   <h1>Front End Development</h1>
                   <p>Function, interactivity, interface, style. Client-side development
                      is the exterior of web app creation.
-                     Find out some of my favourite languages & dependencies.</p>
+                     I use many languages & dependencies for front end development including
+                     Javascript, React, Preact, Babel, Sass, Less, HTML5 </p>
                 </div>
                 <img src="img/splitter/background-color.png" alt="Image File">
               </div>
@@ -122,8 +141,8 @@
   <section id="section-4" class="content content--c1">
 
 <!-- FIRST PROJECT COLUMN -->
-<div>
-  <a href="#" class="tilter tilter--1">
+<div id="portfolio-resize1">
+  <a href="http://www.hulanesiandance.com" class="tilter tilter--1">
     <figure class="tilter__figure">
       <img class="tilter__image" src="img/projects/hula.png" alt="img01" />
       <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -133,7 +152,7 @@
     </figure>
   </a>
 
-  <a href="#" class="tilter tilter--1">
+  <a href="http://www.nikkiclarkdesign.com" class="tilter tilter--1">
     <figure class="tilter__figure">
       <img class="tilter__image" src="img/projects/nikki.png" alt="img02" />
       <div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -146,8 +165,8 @@
 <!-- FIRST PROJECT COLUMN ENDS-->
 
 <!-- SECOND PROJECT COLUMN STARTS -->
-      <div>
-        <a href="#" class="tilter tilter--1">
+      <div id="portfolio-resize2">
+        <a href="http://bit.ly/qmailer" class="tilter tilter--1">
 					<figure class="tilter__figure">
 						<img class="tilter__image" src="img/projects/qmailer.png" alt="img02" />
 						<div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -156,9 +175,9 @@
             </svg>
 					</figure>
 				</a>
-        <a href="#" class="tilter tilter--1">
+        <a href="https://sherpa-app.herokuapp.com/" class="tilter tilter--1">
 					<figure class="tilter__figure">
-						<img class="tilter__image" src="img/projects/nikki.png" alt="img02" />
+						<img class="tilter__image" src="img/projects/sherpa.png" alt="img02" />
 						<div class="tilter__deco tilter__deco--shine"><div></div></div>
             <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 300">
               <polygon class="st0" points="248.8,207.1 248.8,93.4 150.4,36.6 51.9,93.4 51.9,207.1 150.4,263.9 			"/>
@@ -178,8 +197,8 @@
 <!-- SECOND PROJECTS COLUMN ENDS       -->
 
 <!-- THIRD PROJECT STARTS -->
-      <div>
-        <a href="#" class="tilter tilter--1">
+      <div id="portfolio-resize3">
+        <a href="" class="tilter tilter--1">
   				<figure class="tilter__figure">
   					<img class="tilter__image" src="img/projects/hula.png" alt="img01" />
   					<div class="tilter__deco tilter__deco--shine"><div></div></div>
@@ -191,7 +210,7 @@
 
 				<a href="#" class="tilter tilter--1">
 					<figure class="tilter__figure">
-						<img class="tilter__image" src="img/projects/nikki.png" alt="img02" />
+						<img class="tilter__image" src="img/projects/9000.png" alt="img02" />
 						<div class="tilter__deco tilter__deco--shine"><div></div></div>
             <svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 300">
               <polygon class="st0" points="248.8,207.1 248.8,93.4 150.4,36.6 51.9,93.4 51.9,207.1 150.4,263.9 			"/>
@@ -199,7 +218,7 @@
 					</figure>
 				</a>
       </div>
-    </div>
+
 
 <!-- THIRD PROJECT ENDS -->
 			</section>
@@ -227,6 +246,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
         <script src="js/nav.js"></script>
+        <script src="js/linenav.js"></script>
         <script src="js/main.js"></script>
         <script src="js/splitter.js"></script>
 

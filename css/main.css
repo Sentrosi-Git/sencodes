@@ -126,7 +126,7 @@ body {
     transform: translate(-50%, -50%);
 }
 .project {
-    text-align: justify;
+    text-align: left;
     height: 100vh;
     /* padding: 200px 0; */
     border-bottom: 1px #ebebeb solid;
@@ -182,6 +182,29 @@ body {
 #secondary {
     position: relative;
     background-color: #FFF;
+}
+/* #portfolio-resize1 {
+  height: 80%;
+  width: 30%;
+  /* position: absolute; */
+  /* margin: inherit; */
+  /* overflow: hidden; */
+}
+#portfolio-resize2 {
+  min-height: 100vh;
+  width: 30%;
+  /* position: absolute; */
+  /* background-size: contain; */
+
+  /* margin: inherit; */
+  /* overflow: hidden; */
+}
+#portfolio-resize3 {
+  height: 80%;
+  width: 30%;
+  /* position: absolute; */
+  /* margin: inherit; */
+  /* overflow: hidden; */
 }
 .bcg-parallax {
     padding: 60px 0;

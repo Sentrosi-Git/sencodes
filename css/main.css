@@ -438,3 +438,21 @@ body {
         page-break-after: avoid;
     }
 }
+
+
+#please a {
+	/* margin: 0; */
+	padding: 10px;
+	/* list-style-type: none; */
+	/* text-align: center; */
+	/* background-color: #000; */
+  /* opacity: 1; */
+	/* text-decoration: none; */
+	/* padding: .2em 1em; */
+	color: #c8975d;
+	/* background-color: #20c3cc; */
+  /* font-family: sans-serif; */
+	}
+/* #navbar hr {
+  visibility: hidden;
+} */
